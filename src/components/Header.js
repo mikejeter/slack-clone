@@ -69,6 +69,7 @@ const Search = styled.div`
 const UserContainer = styled.div`
    display: flex;
    align-items: center;
+   padding-right: 16px;
 `
 
 const Name = styled.div`
