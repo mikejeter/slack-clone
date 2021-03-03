@@ -7,7 +7,7 @@ import AppsIcon from '@material-ui/icons/Apps';
 
 
 
-export const sidebarItems = [
+export const sidebarItemsData = [
     {
         icon: <MessageIcon />,
         text: "Thread"
