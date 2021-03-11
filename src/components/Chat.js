@@ -38,7 +38,7 @@ function Chat({ user }) {
 
         
      }
-   }
+   };
 
    const getChannel = () => {
       db.collection('rooms')

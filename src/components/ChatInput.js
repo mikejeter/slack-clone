@@ -13,7 +13,7 @@ function ChatInput({ sendMessage }) {
         sendMessage(input);
         setInput("");
 
-    }
+    };
     
     return (
         <Container>

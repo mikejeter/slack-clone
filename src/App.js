@@ -17,7 +17,7 @@ function App(props) {
   const getChannels = () => {
     db.collection('rooms').onSnapshot((snapshot) => {
       setRooms(snapshot.docs.map((doc) => {
-        return { id: doc.id, name: doc.data().name}
+        return { id: doc.id, name: doc.data().name};
       }));
     });
 

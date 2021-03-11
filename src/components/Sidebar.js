@@ -25,7 +25,7 @@ function Sidebar(props) {
             });
         }
 
-    }
+    };
 
     return (
         <Container>
